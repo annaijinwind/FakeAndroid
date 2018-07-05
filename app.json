@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/camera/camera",
+    "pages/main/main",
+    "pages/detail/detail",
+    "pages/four/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000000",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationStyle": "custom"
+  }
+}

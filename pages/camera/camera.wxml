@@ -1,0 +1,4 @@
+  <view class='main'>
+  <text>{{text}}</text>
+    <camera device-position="back" flash="off" binderror="error"mode='scanCode' class='camera' bindscancode="bindscancode"></camera>
+  </view>

@@ -1,0 +1,32 @@
+<view class='main'>
+<view class='main-two'>
+    <input placeholder="搜索应用" focus="{{focus}}" class='search' style=' margin-top: {{marginTop}}'/>
+    <view class='search-line'></view>
+    <scroll-view class='sroll-main' scroll-y>
+      <view wx:for="{{mainData}}" wx:key="{{mainData.count}}">
+        <view class="item-line">
+          <view class='item' bindtap="handleJump">
+            <image class='item-img' src="{{item.data[0].image}}"></image>
+            <text class='item-text'>{{item.data[0].text}}</text>
+          </view>
+          <view class='item' wx:hidden="{{item.data[1].image}}" bindtap="handleJump">
+            <image class='item-img' src="{{item.data[1].image}}"></image>
+            <text class='item-text'>{{item.data[1].text}}</text>
+          </view>
+          <view class='item' wx:hidden="{{item.data[2].image}}" bindtap="handleJump">
+            <image class='item-img' src="{{item.data[2].image}}"></image>
+            <text class='item-text'>{{item.data[2].text}}</text>
+          </view>
+          <view class='item' wx:hidden="{{item.data[3].image}}" bindtap="handleJump">
+            <image class='item-img' src="{{item.data[3].image}}"></image>
+            <text class='item-text'>{{item.data[3].text}}</text>
+          </view>
+          <view class='item' wx:hidden="{{item.data[4].image}}" bindtap="handleJump">
+            <image class='item-img' src="{{item.data[4].image}}"></image>
+            <text class='item-text'>{{item.data[4].text}}</text>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

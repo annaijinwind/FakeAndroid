@@ -1,0 +1,11 @@
+<view class='main'>
+  <view class='main-one'>
+    <view class="bottom">
+      <image class='bottom-img' src="../assets/image/phone.png"></image>
+      <image class='bottom-img' src="../assets/image/message.png"></image>
+      <image class='bottom-img' src="../assets/image/more.png" bindtap="allApps"></image>
+      <image class='bottom-img' src="../assets/image/camera.png"></image>
+      <image class='bottom-img' src="../assets/image/photo.png"></image>
+    </view>
+  </view>
+</view>
