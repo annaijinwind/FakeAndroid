@@ -1,0 +1,14 @@
+<view class='main'>
+<image src='../image/app_logo.png' class='appLogo'  mode="widthFix"></image>
+<view class='inputView'>
+<view class='inputItem'>
+<image src='../image/app_login_img.png' class='leftImg' mode="widthFix"></image>
+<input class='input'></input>
+</view>
+<view class='line'></view>
+<view class='inputItem'>
+<image src='../image/app_password_img.png' class='leftImg' mode="widthFix"></image>
+<input class='input'></input>
+</view>
+</view>
+</view>

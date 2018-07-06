@@ -1,15 +1,18 @@
 {
   "pages": [
-    "pages/camera/camera",
+    "pages/wpbusiness/login/login",
     "pages/main/main",
+    "pages/camera/camera",
     "pages/detail/detail",
-    "pages/four/index"
+    "pages/four/index",
+    "pages/wpbusiness/launcher/launcher",
+    "pages/wpbusiness/main/main"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000000",
+    "navigationBarBackgroundColor": "white",
     "navigationBarTitleText": "",
-    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTextStyle": "white",
     "navigationStyle": "custom"
   }
 }
